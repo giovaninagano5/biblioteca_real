@@ -32,9 +32,15 @@ A pasta `videos/` armazena as saídas visuais geradas durante o treinamento em f
 
 A pasta `dados/` contém arquivos auxiliares do projeto, incluindo as saídas visuais do treinamento e arquivos `.pt` com os pesos dos modelos treinados.
 
-A pasta `dataset/` armazena os dados brutos utilizados no treinamento dos modelos, incluindo o dataset didático `MNIST` e um dataset próprio de imagens de rostos de personagens de anime (a construção desse dataset é detalhada no notebook do projeto).
+*A pasta `dataset/` armazena os dados brutos utilizados no treinamento dos modelos, incluindo o dataset didático `MNIST` e um dataset próprio de imagens de rostos de personagens de anime (a construção desse dataset é detalhada no notebook do projeto).
+
+`*Devido a limitações técnicas, esta versão do repositório não inclui a pasta dataset. No entanto, ela será criada automaticamente na primeira execução do código. Ressalta-se que o dataset de anime e os modelos treinados associados não estão incluídos nesta versão. Caso tenha interesse nesses arquivos, acesse o repositório complementar: https://github.com/ComicDeath/GANs/`
 
 A pasta `runs/` contém os logs gerados durante o treinamento das redes neurais, especialmente utilizados pelo TensorBoard, incluindo o armazenamento da loss durante as épocas.
+
+# Autor
+O trabalho possui total autoria do aluno: 
+- **João Henrique de Lima Gasquez**
 
 # Docente
 A matéria de Redes Neurais e Algoritmos Genéticos foi ministrada por:
